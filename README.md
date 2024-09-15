@@ -23,3 +23,38 @@ See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more inform
 ## License
 
 This library is licensed under the MIT-0 License. See the LICENSE file.
+
+## Prerequisites
+
+1. NodeJS 18.17.0 or greater
+ * Utilize [nvm](https://flatirons.com/blog/how-to-set-a-default-node-version-with-nvm/) to manage NodeJS versions.
+
+## Setup
+
+1. Install npm packages
+
+```
+npm install
+```
+
+## Run local server
+
+1. Install node packages
+```
+npm install
+```
+
+2. Ensure local AWS credentials are set to IAM credentials with access to the AWS account where resources are hosted
+```
+aws configure
+```
+
+2. [Setup local Amplify sandbox](https://docs.amplify.aws/react/deploy-and-host/sandbox-environments/setup/)
+```
+npx ampx sandbox
+```
+
+4. Start server
+```
+npm run dev
+```
