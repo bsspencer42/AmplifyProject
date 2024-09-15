@@ -1,0 +1,10 @@
+.container {
+  min-height: 100vh;
+  min-width: 100vw;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, rgb(50, 220, 80), rgb(255, 255, 255));
+}
