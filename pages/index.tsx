@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { generateClient } from "aws-amplify/data";
+import Link from "next/link";
 import type { Schema } from "@/amplify/data/resource";
 
 const client = generateClient<Schema>();
@@ -39,13 +40,9 @@ export default function App() {
           </li>
         ))}
       </ul>
-      <div>
-        🥳 App successfully hosted. Try creating a new todo.
-        <br />
-        <a href="https://docs.amplify.aws/gen2/start/quickstart/nextjs-pages-router/">
-          Review next steps of this tutorial.
-        </a>
-      </div>
+      <h1>
+        <Link href="/contact">About the author</Link>
+      </h1>
     </main>
   );
 }
