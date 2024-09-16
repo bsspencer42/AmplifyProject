@@ -1,5 +1,9 @@
 {
   "compilerOptions": {
+    "lib": ["es6", "dom"],
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
     "target": "es2022",
     "module": "es2022",
     "moduleResolution": "bundler",

@@ -41,7 +41,7 @@ export default function App() {
         ))}
       </ul>
       <h1>
-        <Link href="/contact">About the author</Link>
+        <Link href="/about">About the author</Link>
       </h1>
     </main>
   );
